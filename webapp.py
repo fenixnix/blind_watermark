@@ -239,6 +239,6 @@ if __name__ == "__main__":
     uvicorn.run(
         "webapp:app",
         host=config.get("host", "0.0.0.0"),
-        port=config.get("port", 8000),
+        port=config.get("port", 8774),
         reload=True
     )
