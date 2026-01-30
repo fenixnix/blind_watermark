@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+tmp/
+temp/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build/Install
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing
+coverage/
+.tox/
+.pytest_cache/
+
+# Project Specific
+output/
+output_*.png
+output_*.jpg
+output_with_watermark.jpg
+temp_*.jpg
+temp_*.png
+
+# WebApp
+*.log
+config.local.json
